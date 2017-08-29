@@ -1,0 +1,24 @@
+{
+  "name": "ebrs_migration_tool",
+  "version": "1.0.0",
+  "description": "ebrs_migration_scriptd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaobabHealthTrust/eBRS_Version_2.0_Migration_Tool.git"
+  },
+  "keywords": [
+    "Migration",
+    "couchdb",
+    "mysql"
+  ],
+  "author": "Comish Omar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaobabHealthTrust/eBRS_Version_2.0_Migration_Tool/issues"
+  },
+  "homepage": "https://github.com/BaobabHealthTrust/eBRS_Version_2.0_Migration_Tool#readme"
+}
