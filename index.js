@@ -13,9 +13,9 @@ if (fs.existsSync("./data/person.sql")) {
 
 }
 
-(new client()).get("http://localhost:5984/ccc/_design/Person/_view/obs_encounters_only?keys=" +
+(new client()).get("http://localhost:5984/ebrs_hq_old/_design/Person/_view/obs_encounters_only?keys=" +
     encodeURIComponent(JSON.stringify(knownEncounters)) + "&include_docs=true&reduce=false", function (data) {
-        
+
 }).on('error', function (err) {
     console.log(err.message, err.request.options);
 });
